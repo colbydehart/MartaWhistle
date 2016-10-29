@@ -8,11 +8,13 @@
     <meta name="author" content="">
 
     <title>Transit Whistle</title>
+    <script src="https://use.fontawesome.com/aebe9293b7.js"></script>
     <link rel="icon" href= '/images/favicon.png'>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
+    <div id="ember-basic-dropdown-wormhole"></div>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
