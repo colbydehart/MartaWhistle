@@ -31,8 +31,9 @@ else
     |  - 
     span.capitalize
       = alarm.line
-      | Line
-    | , Five Points
+      |  Line
+    | , 
+    span.capitalize= alarm.startLocation.name
   .time-info
     i.fa.fa-clock-o &nbsp; 
     | Get on train between 
