@@ -4,16 +4,6 @@
       h1 My Alarms
       p Set an alarm to let you know when you need to leave your home to reach MARTA in time to get work. We'll check on all the trains and make sure to notify you early enough that you're always on time.
       hr
-      .alarm
-        h3
-          | Morning Wake Up Call - 
-          span.text-danger Red Line
-          | , Five Points
-        .time-info
-          i.fa.fa-clock-o &nbsp; 
-          | Get on train between 9:00am and 9:30am
-          | &nbsp; | &nbsp;
-          i.fa.fa-calendar &nbsp; 
-          | M, W, F
+      = alarm-item
   .col
 .image-underlay style="background-image: url('/images/marta-train.jpg');"

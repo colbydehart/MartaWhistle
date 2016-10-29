@@ -1,0 +1,14 @@
+if inEditMode
+  button click='show' show
+else
+  h3
+    | Morning Wake Up Call - 
+    span.text-danger Red Line
+    | , Five Points
+  .time-info
+    i.fa.fa-clock-o &nbsp; 
+    | Get on train between 9:00am and 9:30am
+    | &nbsp; | &nbsp;
+    i.fa.fa-calendar &nbsp; 
+    | M, W, F
+  button click='edit' edit
