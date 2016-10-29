@@ -8,6 +8,7 @@ export default DS.Model.extend({
   name: DS.attr('string'),
   direction: DS.attr('string'),
   line: DS.attr('string'),
+  travel_time: DS.attr('number'),
   humanStartTime: Ember.computed('start_time', function() {
     return moment(this.get('start_time'), 'H:m').format('h:mma');
   }),

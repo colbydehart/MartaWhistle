@@ -5,10 +5,13 @@ if inEditMode
   .fields-row
     .form-field
       label Start Time
-      = input type='time' value=alarm.start_time
+      = input type='time' value=alarm.start_time required=true
     .form-field
       label End Time
-      = input type='time' value=alarm.end_time
+      = input type='time' value=alarm.end_time required=true
+    .form-field
+      label Travel Time
+      = input type='number' value=alarm.travel_time required=true
   .fields-row
     .form-field
       label Line
