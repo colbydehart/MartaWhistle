@@ -8,6 +8,9 @@
     "better-dateinput-polyfill": "~2.0.0",
     "intl-tel-input": "~6.0.3",
     "pikaday": "^1.4.0",
-    "moment": "^2.14.1"
+    "moment": "^2.14.1",
+    "antiscroll": "git://github.com/Addepar/antiscroll#e0d1538cf4f3fd61c5bedd6168df86d651f125da",
+    "jquery-mousewheel": "~3.1.4",
+    "jquery-ui": "~1.11.4"
   }
 }

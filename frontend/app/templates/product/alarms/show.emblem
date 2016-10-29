@@ -1,0 +1,7 @@
+.row
+  .col
+    .dialog-box
+      h1 My Alarms
+      p Set an alarm to let you know when you need to leave your home to reach MARTA in time to get work. We'll check on all the trains and make sure to notify you early enough that you're always on time.
+  .col
+.image-underlay style="background-image: url('/images/marta-train.jpg');"
