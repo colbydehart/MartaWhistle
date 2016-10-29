@@ -22,7 +22,7 @@ export default Ember.Controller.extend({
         phone: this.get('phone')
       };
 
-      this.get('ajax').post('/users', { data: userData })
+      this.get('ajax').post('/api/users', { data: userData })
       .then(() => {
         let { email, password } = this.getProperties('email', 'password');
         this.get('session').authenticate('authenticator:oauth2', email, password)
