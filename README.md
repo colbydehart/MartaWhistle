@@ -60,8 +60,15 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Building
 
-* `ember build` (development)
+* `ember build --watch` (development)
 * `ember build --environment production` (production)
+
+### Running Backend and Frontend Together
+
+* Open a window at project root and run `mix phoenix.server`
+* Open another window and `cd frontend`
+* `ember build --watch`
+* Phoenix server will livereload on changes to ember app
 
 ### Deploying
 

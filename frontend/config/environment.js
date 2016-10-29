@@ -49,5 +49,22 @@ module.exports = function(environment) {
 
   }
 
+  ENV['ember-cli-post-build-copy'] = {
+    "replace": true,
+    "verbose": false,
+    "development": [
+      ['/assets/vendor.js','../web/static/vendor/vendor.js'],
+      ['/assets/trainwhistle.js','../web/static/vendor/trainwhistle.js'],
+      ['/assets/vendor.css','../web/static/css/vendor.css'],
+      ['/assets/trainwhistle.css','../web/static/css/trainwhistle.css'],
+      ['/images/city-poster.jpg', '../web/static/assets/images/city-poster.jpg'],
+      ['/images/favicon.png', '../web/static/assets/images/favicon.png'],
+      ['/images/logo-color.svg', '../web/static/assets/images/logo-color.svg'],
+      ['/images/logo-icon-white.svg', '../web/static/assets/images/logo-icon-white.svg'],
+      ['/images/logo.svg', '../web/static/assets/images/logo.svg'],
+      ['/videos/city.mp4', '../web/static/assets/videos/city.mp4'],
+    ]
+  };
+
   return ENV;
 };
